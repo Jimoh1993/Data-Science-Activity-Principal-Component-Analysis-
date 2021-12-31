@@ -1,1 +1,4 @@
-# Data-Science-Activity-Principal-Component-Analysis-
+# UM6P-School-of-Collective-Intelligence-Data-Science-Activity-Principal-Component-Analysis
+# A Step By Step Implementation of Principal Component Analysis
+Principal Component Analysis or PCA is a commonly used dimensionality reduction method. It works by computing the principal components and performing a change of basis. It retains the data in the direction of maximum variance. The reduced features are uncorrelated with each other. These features can be used for unsupervised clustering and classification. To reduce dimensionality, autoencoder is another commonly used method. But, the latent space of the autoencoder is not necessarily uncorrelated. While PCA guarantees that all features are uncorrelated with each other.
+Firstly, PCA computes the covariance matrix. Then we find the eigen vectors and eigen values of the covariance matrix. After that, we project the data along the eigen vectors. If the original data has a dimensionality of n, we can reduce dimensions to k, such that k≤ n.
